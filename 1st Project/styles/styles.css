@@ -15,6 +15,12 @@ buttons {
   background-color: blueviolet;
 }
 
+.reset-button {
+  height: 100;
+  width: 100px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
 .move-button {
   width: 120px;
   height: 120px;
@@ -34,5 +40,13 @@ buttons {
 }
 
 .move-icon:active {
+  background-color: plum;
+}
+
+.reset-button:hover {
+  background-color: darkblue;
+}
+
+.reset-button:active {
   background-color: plum;
 }
