@@ -6,15 +6,19 @@
 
 .buttons {
   display: flex;
-  justify-content: space-between;
-  padding: 50px;
+  justify-content: flex-start;
 }
 
 .rock,
 .paper,
 .scissors {
   width: 100px;
-  color: gainsboro;
+  height: 100px;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #edc712;
+  size: 100px;
+  margin: 5px;
 }
 
 .scissors:hover {
@@ -27,4 +31,16 @@
 
 .paper:hover {
   background-color: lightgray;
+}
+
+.scissors:active {
+  background-color: blue;
+}
+
+.paper:active {
+  background-color: blue;
+}
+
+.rock:active {
+  background-color: blue;
 }
