@@ -9,34 +9,33 @@
   <body>
     <h1>Let's play game</h1>
     <p>Rock Paper Scissors</p>
-    <dav class="buttons">
-      <button
-        class="rock"
-        onclick="
+
+    <button
+      class="move-button"
+      onclick="
        playGame('rock');
         "
-      >
-        🤘
-      </button>
+    >
+      <img class="move-icon" src="image/Rock.png" />
+    </button>
 
-      <button
-        class="paper"
-        onclick="
+    <button
+      class="move-button"
+      onclick="
         playGame('paper');
       "
-      >
-        📃
-      </button>
+    >
+      <img class="move-icon" src="image/Paper.png" />
+    </button>
 
-      <button
-        class="scissors"
-        onclick="
+    <button
+      class="move-button"
+      onclick="
        playGame('scissors');
        "
-      >
-        ✂
-      </button>
-    </dav>
+    >
+      <img class="move-icon" src="image/Scissors.png" />
+    </button>
 
     <script src="scripts/game.js"></script>
   </body>

@@ -4,43 +4,35 @@
   font-size: 20px;
 }
 
-.buttons {
-  display: flex;
-  justify-content: flex-start;
+buttons {
+  background-color: blue;
 }
 
-.rock,
-.paper,
-.scissors {
-  width: 100px;
+.move-icon {
   height: 100px;
-  padding: 30px;
+  width: 100px;
   border-radius: 50%;
-  background-color: #edc712;
-  size: 100px;
-  margin: 5px;
+  background-color: blueviolet;
 }
 
-.scissors:hover {
-  background-color: lightgrey;
+.move-button {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 3px solid white;
+  background-color: blueviolet;
+  margin-right: 10px;
+  cursor: pointer;
 }
 
-.rock:hover {
-  background-color: lightgray;
+.move-button:hover {
+  background-color: darkblue;
 }
 
-.paper:hover {
-  background-color: lightgray;
+.move-icon:hover {
+  background-color: darkblue;
 }
 
-.scissors:active {
-  background-color: blue;
-}
-
-.paper:active {
-  background-color: blue;
-}
-
-.rock:active {
-  background-color: blue;
+.move-icon:active {
+  background-color: plum;
 }
