@@ -1,0 +1,30 @@
+* {
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.rock,
+.paper,
+.scissors {
+  width: 100px;
+  color: gainsboro;
+}
+
+.scissors:hover {
+  background-color: lightgrey;
+}
+
+.rock:hover {
+  background-color: lightgray;
+}
+
+.paper:hover {
+  background-color: lightgray;
+}
