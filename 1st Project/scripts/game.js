@@ -14,7 +14,17 @@ function pickComputerMove() {
   return computerMove;
 }
 
-const score = JSON.parse(localStorage.getItem("score"));
+let score = JSON.parse(localStorage.getItem("score")) || {
+  wins: 0,
+  losses: 0,
+  ties: 0,
+};
+
+/*
+if (!score) {
+  score = { wins: 0, losses: 0, ties: 0 };
+}
+*/
 
 function playGame(playerMove) {
   const computerMove = pickComputerMove();
