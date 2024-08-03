@@ -71,4 +71,6 @@ function playGame(playerMove) {
     `You picked ${playerMove}. Computer picked ${computerMove}. ${result}.
 Wins: ${score.wins}, Losses: ${score.losses}, Ties: ${score.ties}`
   );
+
+  
 }
